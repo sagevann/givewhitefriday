@@ -6,7 +6,7 @@
 #give{
 		position: absolute;
 		bottom: 0;
-		left: 433px;
+		left: 560px;
 		z-index: 3;
 		font-size: 150px;
 		padding: 0;
@@ -15,13 +15,13 @@
 		line-height: 0.6;
 		margin: 0;
 
-		-webkit-margin-before: 0;
--webkit-margin-after: 11px;
--webkit-margin-start: 0px;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 11px;
+-webkit-margin-start: -127px;
 -webkit-margin-end: 0px;
 }
 #tagline{
-	margin:  20px auto 0 auto;
+	margin:  0 auto 0 auto;
 }
 
 .charities{
@@ -53,27 +53,31 @@ width: 250px;
 float: left;
 
 }
-
+h2{
+	letter-spacing: 1px;
+	text-align: center;
+}
 
 .charity_name{
-font-size: 22px;
+font-size: 30px;
 font-weight: bold;
-width: 200px;
 margin: 0 auto;
+text-transform: uppercase;
+color: #000;
 	
 }	
 
 .emboss{
     /* Background */
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 1);
  
     /* Border bottom light */
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
  
     /* Inner top shadow */
-    -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.1);
-    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.1);
-    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.4);
  
     /* Round corners */
     -webkit-border-radius: 10px;
@@ -82,7 +86,7 @@ margin: 0 auto;
 }
 
 body {
-		background: #ddd;
+		background: #D7F0FE;
 	
 	}
 
