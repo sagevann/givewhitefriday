@@ -14,7 +14,7 @@
 	padding: 0 0 0 20px;
 }
 
-#secure{ margin: 0 0 0 100px;}
+#secure{ margin: 0 0 0 100px; clear: both;}
 #about{
 	position: fixed;
 	top: 0;
