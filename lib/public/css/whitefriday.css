@@ -29,8 +29,7 @@
 height: 205px;
 width: 1100px;
 margin: -50px auto 0 auto;
-	border:  1px solid blue;
-}
+	}
 
 #nav{
 	position: fixed;
