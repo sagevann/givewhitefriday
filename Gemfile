@@ -7,9 +7,7 @@ gem 'haml'
 gem 'rake'
 gem 'data_mapper'
 
-group :production do
-  gem 'dm-postgres-adapter'
-end
+gem 'dm-postgres-adapter', :group => :production
 
 group :test do
   gem 'guard'
