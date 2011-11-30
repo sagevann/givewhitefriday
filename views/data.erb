@@ -1,0 +1,7 @@
+<h1>This will display all the data in the database</h1>
+  <ul>
+    <% for @name in @donations %>
+        <li><%= @name.name %> donated $<%= @name.amount %>.00 to <%= @name.charity %></li>
+    <% end %>
+  </ul>
+  <p>Raw <%= @donations.to_s %>  
