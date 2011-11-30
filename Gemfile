@@ -6,7 +6,7 @@ gem 'heroku'
 gem 'haml'
 gem 'rake'
 gem 'data_mapper'
-gem 'sqlite3'
+gem 'dm-postgres-adapter'
 
 group :test do
   gem 'guard'
