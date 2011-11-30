@@ -5,6 +5,8 @@ gem 'twitter'
 gem 'heroku'
 gem 'haml'
 gem 'rake'
+gem 'data_mapper'
+gem 'sqlite3'
 
 group :test do
   gem 'guard'
